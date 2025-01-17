@@ -10,6 +10,8 @@ httpx = "*"
 [dev-packages]
 pre-commit = "*"
 pytest = "*"
+ruff = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.12"
