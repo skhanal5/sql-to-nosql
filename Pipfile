@@ -5,8 +5,11 @@ name = "pypi"
 
 [packages]
 fastapi = {extras = ["standard"], version = "*"}
+httpx = "*"
 
 [dev-packages]
+pre-commit = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.12"
